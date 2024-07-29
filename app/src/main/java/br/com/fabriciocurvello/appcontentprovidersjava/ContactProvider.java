@@ -10,7 +10,7 @@ import android.provider.BaseColumns;
 
 public class ContactProvider extends ContentProvider {
 
-    public static final String AUTHORITY = "br.com.fabriciocurvello.provider";
+    public static final String AUTHORITY = "br.com.fabriciocurvello.appcontentprovidersjava.provider";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/contacts");
 
     private static final int CONTACTS = 1;
